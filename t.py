@@ -8,8 +8,9 @@ def timelevel(a: int, b: list):
     print("The a {}".format(a))
     print("The b {}".format(b))
 
-def leastlevel(name:str):
+def leastlevel(name:str,surname:str):
     print("The name is {}".format(name))
+    print("The surname is {}".format(surname))
 
 if __name__ == "__main__":
     b=[4,5]
