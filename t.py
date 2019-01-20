@@ -8,6 +8,10 @@ def timelevel(a: int, b: list):
     print("The a {}".format(a))
     print("The b {}".format(b))
 
+def leastlevel(name:str,surname:str,middlename:str):
+    print("The name is {} {}".format(name,middlename))
+    print("The surname is {}".format(surname))
+
 def level2(Address:str, doornumber:str):
     print("The Address {}".format(Address))
     print("The DoorNumber {}".format(doornumber))
